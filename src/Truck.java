@@ -8,9 +8,9 @@ public class Truck extends Vehicle{
                  boolean breakVehicle,
                  boolean turnLeft,
                  boolean turnRight,
-                 boolean TruckType) {
+                 boolean truckType) {
         super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight);
-        this.truckType = TruckType;
+        this.truckType = truckType;
     }
 
     public boolean isTruckType() {

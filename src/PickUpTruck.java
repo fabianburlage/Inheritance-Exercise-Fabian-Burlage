@@ -8,10 +8,10 @@ public class PickUpTruck extends Truck{
                        boolean breakVehicle,
                        boolean turnLeft,
                        boolean turnRight,
-                       boolean TruckSize,
-                       boolean PickUpTruck) {
-        super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight, TruckSize);
-        this.pickUpTruck = PickUpTruck;
+                       boolean truckSize,
+                       boolean pickUpTruck) {
+        super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight, truckSize);
+        this.pickUpTruck = pickUpTruck;
     }
 
     public boolean isPickUpTruck() {

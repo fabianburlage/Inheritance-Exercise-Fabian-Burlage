@@ -9,10 +9,10 @@ public class LargeTruck extends Truck{
                       boolean breakVehicle,
                       boolean turnLeft,
                       boolean turnRight,
-                      boolean TruckSize,
-                      boolean LargeTruck) {
-        super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight, TruckSize);
-        this.largeTruck = LargeTruck;
+                      boolean truckSize,
+                      boolean largeTruck) {
+        super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight, truckSize);
+        this.largeTruck = largeTruck;
     }
 
     public boolean isLargeTruck() {

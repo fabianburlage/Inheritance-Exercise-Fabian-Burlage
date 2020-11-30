@@ -8,10 +8,10 @@ public class RegularBike extends Bike{
                        boolean breakVehicle,
                        boolean turnLeft,
                        boolean turnRight,
-                       boolean BikeType,
-                       boolean RegularBike) {
-        super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight, BikeType);
-        this.regularBike = RegularBike;
+                       boolean bikeType,
+                       boolean regularBike) {
+        super(brand, wheels, accelerate, breakVehicle, turnLeft, turnRight, bikeType);
+        this.regularBike = regularBike;
     }
 
     public boolean isRegularBike() {
