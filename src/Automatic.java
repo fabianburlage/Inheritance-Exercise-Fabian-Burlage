@@ -15,4 +15,11 @@ public class Automatic extends Car{
         this.transmissionIsAutomatic = transmissionIsAutomatic;
     }
 
+    public boolean isTransmissionIsAutomatic() {
+        return transmissionIsAutomatic;
+    }
+
+    public void setTransmissionIsAutomatic(boolean transmissionIsAutomatic) {
+        this.transmissionIsAutomatic = transmissionIsAutomatic;
+    }
 }
